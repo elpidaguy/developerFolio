@@ -16,7 +16,7 @@ const greeting = {
     'An experienced and resourceful full-stack software engineer, I use the tools and resources at my disposal to create system that saves time.'
   ),
   resumeLink:
-    'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
+    'https://drive.google.com/file/d/1Ect0K7APEpRoG0cF6NymU72uz18km2bK/view?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -43,11 +43,11 @@ const skillsSection = {
   subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
   skills: [
     emoji(
-      '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
+      '⚡ Developing highly interactive end to end application for challenging business requirements.'
     ),
-    emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
+    emoji('⚡ Redesinging and upgrading traditional functionality of Operations, giving the power to the user.'),
     emoji(
-      '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
+      '⚡ Integration of third party services such as GCP/DevOps for better security and fast results.'
     ),
   ],
 
@@ -155,6 +155,10 @@ const techStack = {
       Stack: 'Programming',
       progressPercentage: '60%',
     },
+    {
+      Stack: 'DevOps',
+      progressPercentage: '60%',
+    },
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -165,32 +169,40 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'Software Engineer',
-      company: 'Facebook',
-      companylogo: require('./assets/images/facebookLogo.png'),
-      date: 'June 2018 – Present',
+      role: 'Analyst - Full Stack Developer',
+      company: 'IKS Health',
+      companylogo: require('./assets/images/IKSHlogo.jpg'),
+      date: '2020 – Present',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Responsible for developing end to end intelligent solutions for challenging business requirements with the application of various cutting edge technologies.',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Handling variety of healthcare products with hugh data and driving insights out of it to help operations.',
+        'Developing solutions across a range of business requirements with latest technologies.',
+        'Productionizing and Maintaining solutions for ensuring high availabilty and throughput.',
       ],
     },
     {
-      role: 'Front-End Developer',
-      company: 'Quora',
-      companylogo: require('./assets/images/quoraLogo.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Full Stack Developer',
+      company: 'Weoto',
+      companylogo: require('./assets/images/wlogo.jpg'),
+      date: '2017 – 2019',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Developing an innovative and creative products and services that provides the total communication and information solutions. ',
+      descBullets: [
+          'Developing variety of products across various well known domains as per business requirements.',
+          'Ensuring the User Friendlyness, Dynamicity and Stableness of Software/Hardware Applications.',
+          'Leading Products on both technical and management fronts..',
+        ],
     },
     {
       role: 'Software Engineer Intern',
-      company: 'Airbnb',
-      companylogo: require('./assets/images/airbnbLogo.png'),
-      date: 'Jan 2015 – Sep 2015',
-      desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      company: 'Solace Infotech Pvt Ltd',
+      companylogo: require('./assets/images/solace-logo.png'),
+      date: '2016 - 2017',
+      descBullets: [
+        'Group Leader of Academic Project',
+        'Worked on Android Native, PHP Codeigniter, Jquery, Ajax, MySQL as Full Stack Developer',
+      ]
     },
   ],
 };
@@ -258,18 +270,41 @@ const achievementSection = {
         {
           name: 'Certification',
           url:
-            'https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing',
+            'https://drive.google.com/file/d/1G2Vxba57U6lfMzrlvIKdhb-VGJcHSUZB/view?usp=sharing'
         },
+        // {
+        //   name: 'Award Letter',
+        //   url:
+        //     'https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing',
+        // },
+        // {
+        //   name: 'Google Code-in Blog',
+        //   url:
+        //     'https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html',
+        // },
+      ],
+    },
+    {
+      title: 'An Introduction to Text Parsing Sorcery',
+      subtitle:
+        'Completed Certification from Udemy for Regular Expressions',
+      image: require('./assets/images/udemy.png'),
+      footerLink: [
         {
-          name: 'Award Letter',
+          name: 'Certification',
           url:
-            'https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing',
+            'https://www.udemy.com/certificate/UC-FDK7EQTE/'
         },
-        {
-          name: 'Google Code-in Blog',
-          url:
-            'https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html',
-        },
+        // {
+        //   name: 'Award Letter',
+        //   url:
+        //     'https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing',
+        // },
+        // {
+        //   name: 'Google Code-in Blog',
+        //   url:
+        //     'https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html',
+        // },
       ],
     },
   ],
@@ -337,7 +372,7 @@ const contactInfo = {
   title: emoji('Contact Me ☎️'),
   subtitle:
     'Discuss a project or just want to say hi? My Inbox is open for all.',
-  number: '+91-9762720307',
+  number: '+91-9284901709',
   emailAddress: 'kaustubh.joshi136@gmail.com',
 };
 

@@ -9,10 +9,11 @@ const illustration = {
 };
 
 const greeting = {
-  username: 'Saad Pasta',
-  title: "Hi all, I'm Saad",
+  username: 'Kaustubh Joshi',
+  title: "Hi, I'm Kaustubh",
   subTitle: emoji(
-    'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
+    // 'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
+    'An experienced and resourceful full-stack software engineer, I use the tools and resources at my disposal to create system that saves time.'
   ),
   resumeLink:
     'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
@@ -22,13 +23,15 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: 'https://github.com/saadpasta',
-  linkedin: 'https://www.linkedin.com/in/saadpasta/',
-  gmail: 'saadpasta70@gmail.com',
-  gitlab: 'https://gitlab.com/saadpasta',
-  facebook: 'https://www.facebook.com/saad.pasta7',
-  medium: 'https://medium.com/@saadpasta',
-  stackoverflow: 'https://stackoverflow.com/users/10422806/saad-pasta',
+  github: 'https://bit.ly/ElGithub',
+  linkedin: 'https://bit.ly/egLinked',
+  gmail: 'kaustubh.joshi136@gmail.com',
+  // gitlab: 'https://gitlab.com/saadpasta',
+  // facebook: 'https://www.facebook.com/saad.pasta7',
+  medium: 'http://bit.ly/ElMedium',
+  stackoverflow: 'https://bit.ly/ElOverflow',
+  codepen: 'https://bit.ly/ElCodepen',
+  pexels: 'https://bit.ly/ElPexels',
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
 };
@@ -69,16 +72,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fab fa-js',
     },
     {
-      skillName: 'reactjs',
-      fontAwesomeClassname: 'fab fa-react',
+      skillName: 'Angular',
+      fontAwesomeClassname: 'fab fa-angular',
     },
     {
-      skillName: 'nodejs',
-      fontAwesomeClassname: 'fab fa-node',
+      skillName: 'DotNet',
+      fontAwesomeClassname: 'fab fa-microsoft',
     },
     {
-      skillName: 'swift',
-      fontAwesomeClassname: 'fab fa-swift',
+      skillName: 'Java',
+      fontAwesomeClassname: 'fab fa-java',
     },
     {
       skillName: 'npm',
@@ -89,12 +92,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fas fa-database',
     },
     {
-      skillName: 'aws',
-      fontAwesomeClassname: 'fab fa-aws',
+      skillName: 'MongoDB',
+      fontAwesomeClassname: 'fab fa-envira',
     },
     {
-      skillName: 'firebase',
-      fontAwesomeClassname: 'fas fa-fire',
+      skillName: 'aws',
+      fontAwesomeClassname: 'fab fa-aws',
     },
     {
       skillName: 'python',
@@ -114,24 +117,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: 'Harvard University',
-      logo: require('./assets/images/harvardLogo.png'),
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
+      schoolName: 'C-DAC: Center For Development of Advanced Computing, India  ',
+      logo: require('./assets/images/cdac2.png'),
+      subHeader: 'PG-DAC: Diploma in Advanced Computing',
+      duration: '2019 - 2020',
+      desc: 'Completed the  Program with GRADE A',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Ranked top 10 in the program',
       ],
     },
     {
-      schoolName: 'Stanford University',
-      logo: require('./assets/images/stanfordLogo.png'),
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
+      schoolName: 'Pune University',
+      logo: require('./assets/images/sppu-logo.jpg'),
+      subHeader: 'Bachelor of Engineering in Computer Science',
+      duration: '2013 - 2017',
       desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit'],
+        'First Class With Distinction',
+      descBullets: ['Interaction with Dr.Mashelkar sir and Dr.Kakodkar sir 2018 '],
     },
   ],
 };
@@ -147,7 +149,7 @@ const techStack = {
     },
     {
       Stack: 'Backend',
-      progressPercentage: '70%',
+      progressPercentage: '80%',
     },
     {
       Stack: 'Programming',
@@ -200,7 +202,7 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: 'saadpasta', // Change to your github username to view your profile in Contact Section.
   showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -235,7 +237,7 @@ const bigProjects = {
       ],
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -248,10 +250,10 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: 'Google Code-In Finalist',
+      title: 'Smart India Hackathon 2017 Winner',
       subtitle:
-        'First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.',
-      image: require('./assets/images/codeInLogo.webp'),
+        'Winner of SIH2017 held at Hubali,Karnataka under Department of Ayush,India',
+      image: require('./assets/images/sih17.webp'),
       footerLink: [
         {
           name: 'Certification',
@@ -270,32 +272,6 @@ const achievementSection = {
         },
       ],
     },
-    {
-      title: 'Google Assistant Action',
-      subtitle:
-        'Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.',
-      image: require('./assets/images/googleAssistantLogo.webp'),
-      footerLink: [
-        {
-          name: 'View Google Assistant Action',
-          url:
-            'https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en',
-        },
-      ],
-    },
-
-    {
-      title: 'PWA Web App Developer',
-      subtitle: 'Completed Certifcation from SMIT for PWA Web App Development',
-      image: require('./assets/images/pwaLogo.webp'),
-      footerLink: [
-        { name: 'Certification', url: '' },
-        {
-          name: 'Final Project',
-          url: 'https://pakistan-olx-1.firebaseapp.com/',
-        },
-      ],
-    },
   ],
   display: true, // Set false to hide this section, defaults to true
 };
@@ -310,16 +286,16 @@ const blogSection = {
   blogs: [
     {
       url:
-        'https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae',
-      title: 'Win a Google Assistant Tshirt and $200 in Google Cloud Credits',
+        'https://elpidaguy.medium.com/how-to-bulk-upload-csv-file-data-into-mysql-table-very-fast-way-using-load-data-statement-e3685890a568',
+      title: 'How to Bulk Upload CSV file data into MySql Table? A very fast way using LOAD DATA.',
       description:
-        'Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?',
+        'LOAD DATA LOCAL provides a simple and fast way to directly upload your csv data into your MySQL table programmatically.',
     },
     {
-      url: 'https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e',
-      title: 'Why REACT is The Best?',
+      url: 'https://elpidaguy.medium.com/creating-a-dot-net-core-3-1-webapi-with-openapi-swagger-ui-using-cli-on-vs-code-76a142505b33',
+      title: 'Creating a Dot Net Core 3.1 WebAPI with OpenAPI, Swagger UI using CLI on VS Code',
       description:
-        'React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.',
+        'Do you want to document your DotNet Core 3.1 WebAPIs?',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -341,7 +317,7 @@ const talkSection = {
       event_url: 'https://www.facebook.com/events/2339906106275053/',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -354,22 +330,22 @@ const podcastSection = {
   podcast: [
     'https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo',
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji('Contact Me ☎️'),
   subtitle:
     'Discuss a project or just want to say hi? My Inbox is open for all.',
-  number: '+92-3243454077',
-  emailAddress: 'saadpasta70@gmail.com',
+  number: '+91-9762720307',
+  emailAddress: 'kaustubh.joshi136@gmail.com',
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: 'twitter', //Replace "twitter" with your twitter username without @
-  display: true, // Set true to display this section, defaults to false
+  display: false, // Set true to display this section, defaults to false
 };
 
 export {

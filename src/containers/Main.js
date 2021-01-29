@@ -27,10 +27,10 @@ export default class Main extends Component {
     };
   }
 
-  componentDidMount() {
-    const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-    this.setState({ isDark: darkPref.matches });
-  }
+  // componentDidMount() {
+  //   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+  //   this.setState({ isDark: darkPref.matches });
+  // }
   changeTheme = () => {
     this.setState({ isDark: !this.state.isDark });
   };

@@ -81,6 +81,22 @@ export default function socialMedia() {
       :
       null}
 
+      {socialMediaLinks.codepen ? 
+      (<a href={socialMediaLinks.codepen} className="icon-button codepen" target="_blank">
+        <i className="fab fa-codepen"></i>
+        <span></span>
+      </a>)
+      :
+      null}
+
+      {socialMediaLinks.pexels ? 
+      (<a href={socialMediaLinks.pexels} className="icon-button pexels" target="_blank">
+        <i className="fas fa-camera-retro"></i>
+        <span></span>
+      </a>)
+      :
+      null}
+
     </div>
   );
 }

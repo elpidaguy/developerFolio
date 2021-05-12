@@ -2,10 +2,10 @@
 
 // Summary And Greeting Section
 
-import emoji from 'react-easy-emoji';
+import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: true, // set to false to use static SVG
+  animated: true // set to false to use static SVG
 };
 
 const greeting = {
@@ -33,14 +33,14 @@ const socialMediaLinks = {
   codepen: 'https://bit.ly/ElCodepen',
   pexels: 'https://bit.ly/ElPexels',
   // Instagram and Twitter are also supported in the links!
-  display: true, // Set true to display this section, defaults to false
+  display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  title: "What I do",
+  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       '⚡ Developing highly interactive end to end application for challenging business requirements.'
@@ -56,20 +56,20 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: 'html-5',
-      fontAwesomeClassname: 'fab fa-html5',
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: 'css3',
-      fontAwesomeClassname: 'fab fa-css3-alt',
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: 'sass',
-      fontAwesomeClassname: 'fab fa-sass',
+      skillName: "sass",
+      fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: 'JavaScript',
-      fontAwesomeClassname: 'fab fa-js',
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
     },
     {
       skillName: 'Angular',
@@ -84,12 +84,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fab fa-java',
     },
     {
-      skillName: 'npm',
-      fontAwesomeClassname: 'fab fa-npm',
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: 'sql-database',
-      fontAwesomeClassname: 'fas fa-database',
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: 'MongoDB',
@@ -100,15 +100,15 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fab fa-aws',
     },
     {
-      skillName: 'python',
-      fontAwesomeClassname: 'fab fa-python',
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: 'docker',
-      fontAwesomeClassname: 'fab fa-docker',
-    },
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    }
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -144,8 +144,8 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-      progressPercentage: '90%', //Insert relative proficiency in percentage
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: 'Backend',
@@ -160,7 +160,7 @@ const techStack = {
       progressPercentage: '60%',
     },
   ],
-  displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -212,7 +212,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: 'saadpasta', // Change to your github username to view your profile in Contact Section.
+  githubUserName: 'elpidaguy', // Change to your github username to view your profile in Contact Section.
   showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
   display: false, // Set false to hide this section, defaults to true
 };
@@ -220,34 +220,32 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: 'Big Projects',
-  subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
+  title: "Big Projects",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require('./assets/images/saayaHealthLogo.webp'),
+      image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Saayahealth",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: 'Visit Website',
-          url:
-            'http://saayahealth.com/',
-        },
+          name: "Visit Website",
+          url: "http://saayahealth.com/"
+        }
         //  you can add extra buttons here.
-      ],
+      ]
     },
     {
-      image: require('./assets/images/nextuLogo.webp'),
+      image: require("./assets/images/nextuLogo.webp"),
       projectName: "Nextu",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: 'Visit Website',
-          url:
-            'http://nextu.se/',
-        },
-      ],
-    },
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    }
   ],
   display: false, // Set false to hide this section, defaults to true
 };
@@ -256,9 +254,9 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji('Achievements And Certifications 🏆 '),
+  title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    'Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !',
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
@@ -268,7 +266,7 @@ const achievementSection = {
       image: require('./assets/images/sih17.webp'),
       footerLink: [
         {
-          name: 'Certification',
+          name: "Certification",
           url:
             'https://drive.google.com/file/d/1G2Vxba57U6lfMzrlvIKdhb-VGJcHSUZB/view?usp=sharing'
         },
@@ -308,15 +306,15 @@ const achievementSection = {
       ],
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
 
 const blogSection = {
-  title: 'Blogs',
+  title: "Blogs",
   subtitle:
-    'With Love for Developing cool stuff, I love to write and teach others what I have learnt.',
+    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
   blogs: [
     {
@@ -333,24 +331,24 @@ const blogSection = {
         'Do you want to document your DotNet Core 3.1 WebAPIs?',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
 
 const talkSection = {
-  title: 'TALKS',
+  title: "TALKS",
   subtitle: emoji(
-    'I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅'
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),
 
   talks: [
     {
-      title: 'Build Actions For Google Assistant',
-      subtitle: 'Codelab at GDG DevFest Karachi 2019',
-      slides_url: 'https://bit.ly/saadpasta-slides',
-      event_url: 'https://www.facebook.com/events/2339906106275053/',
-    },
+      title: "Build Actions For Google Assistant",
+      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      slides_url: "https://bit.ly/saadpasta-slides",
+      event_url: "https://www.facebook.com/events/2339906106275053/"
+    }
   ],
   display: false, // Set false to hide this section, defaults to true
 };
@@ -358,18 +356,18 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji('Podcast 🎙️'),
-  subtitle: 'I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY',
+  title: emoji("Podcast 🎙️"),
+  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    'https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo',
+    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
   display: false, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji('Contact Me ☎️'),
+  title: emoji("Contact Me ☎️"),
   subtitle:
     'Discuss a project or just want to say hi? My Inbox is open for all.',
   number: '+91-9284901709',
@@ -398,5 +396,5 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails,
+  twitterDetails
 };

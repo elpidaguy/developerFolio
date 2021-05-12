@@ -5,7 +5,7 @@
 
 <p align="center">
   <kbd>
-<img src="https://user-images.githubusercontent.com/49693820/81296489-999abf00-908f-11ea-9442-75e8f0ecf65d.gif"></img>
+<img src="https://user-images.githubusercontent.com/53429438/106779355-e9cd9e80-666c-11eb-9417-8a4b54441bc6.gif"></img>
   </kbd>
 </p>
 
@@ -72,25 +72,32 @@ From your command line, clone and run developerFolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/saadpasta/developerFolio.git
+git clone https://github.com/saadpasta/developerFolio.git
 
 # Go into the repository
-$ cd developerFolio
+cd developerFolio
+
+# Setup default environment variables
+
+# For Linux
+cp env.example .env
+# For Windows
+copy env.example .env
 
 # Install dependencies
-$ npm install
+npm install
 
-#Start's development server
-$ npm start
+# Start a local dev server
+npm start
 ```
 
 ## Linking Portfolio to Github
 
-Generate a Github personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token).
+Generate a Github personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token). If you are using [Github Actions](#configuring-github-actions-recommended) to deploy your portfolio you can skip this section.
 
-1. Create a file called .env in the root directory of your project, check the base file
+1. Create a file called .env in the root directory of your project (if not done already in section: [How To Use](#how-to-use))
 
-Note: Instead of creating a .env file, you can just run this command "cp env.example .env" inside the root directory
+Note: Configuring environment variables before deploying your portfolio is highly recommended as some components depend on API data. 
 
 ```bash
 - DeveloperFolio
@@ -104,11 +111,12 @@ Note: Instead of creating a .env file, you can just run this command "cp env.exa
   - package.json
 ```
 
-2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this.
+2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this, also add your username as `GITHUB_USERNAME`
 
-```javascript
- // .env
-  REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
+```env
+// .env
+REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
+GITHUB_USERNAME = "YOUR GITHUB USERNAME"
 ```
 
 Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
@@ -184,8 +192,11 @@ Note: Don't use `@` symbol when adding username.
 When you are done with the setup, you should host your website online.
 We highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
 
-#### Configuring GitHub Actions
-- Using the Personal Access Token you placed in the `.env` file earlier create a [repository secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository) called `OPEN_SOURCE_TOKEN` where the value matches the token value from the `.env` file in your local workspace.
+#### Configuring GitHub Actions (Recommended)
+First you should enable, Github Actions for the repository you use.
+
+The Profile and the Repository information from Github is only created at the time of deploy and the site needs to be redeployed if those information needs to be updated. So, a configurable [CRON Job](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events) is setup which deploys your site every week, so that once you update your profile on Github it is shown on your portfolio. You can also trigger it manually using `workflow_dispatch` event, see [this guide](https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch) on how to do that.
+
 - When you are done with the configuration, we highly recommend to read through the [Github Actions Configuring a workflow](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow) docs.
 
 #### Deploying to Github Pages
@@ -230,8 +241,6 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 - Connect with LinkedIn to get Summary, Skills, Education and Experience
 
 - Move to Gatsby
-
-- Enable Dark Mode
 
 - Add More Sections
 
@@ -301,6 +310,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://hanzla.ga"><img src="https://avatars.githubusercontent.com/u/59178380?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hanzla</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=1hanzla100" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/yogeshhrathod"><img src="https://avatars.githubusercontent.com/u/46518134?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yogesh Rathod</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=yogeshhrathod" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/AlKun25"><img src="https://avatars.githubusercontent.com/u/53429438?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kunal Mundada</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=AlKun25" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/jayhawk24"><img src="https://avatars.githubusercontent.com/u/38766415?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anubhav Gupta</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=jayhawk24" title="Code">💻</a></td>
+    <td align="center"><a href="https://vatsaldavevdwpblog.wordpress.com/"><img src="https://avatars.githubusercontent.com/u/42956495?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vatsal Dave</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=vatsaldaveVD" title="Code">💻</a></td>
+    <td align="center"><a href="http://www.elvisciuffetelli.com"><img src="https://avatars.githubusercontent.com/u/35818757?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Elvis Ciuffetelli</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=elvisciuffetelli" title="Code">💻</a></td>
   </tr>
 </table>
 

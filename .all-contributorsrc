@@ -337,6 +337,51 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "yogeshhrathod",
+      "name": "Yogesh Rathod",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46518134?v=4",
+      "profile": "https://github.com/yogeshhrathod",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "AlKun25",
+      "name": "Kunal Mundada",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53429438?v=4",
+      "profile": "https://github.com/AlKun25",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "jayhawk24",
+      "name": "Anubhav Gupta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38766415?v=4",
+      "profile": "https://github.com/jayhawk24",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "vatsaldaveVD",
+      "name": "Vatsal Dave",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42956495?v=4",
+      "profile": "https://vatsaldavevdwpblog.wordpress.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "elvisciuffetelli",
+      "name": "Elvis Ciuffetelli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35818757?v=4",
+      "profile": "http://www.elvisciuffetelli.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

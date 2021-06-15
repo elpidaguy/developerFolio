@@ -147,22 +147,22 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "75%" //Insert relative proficiency in percentage
     },
     {
       Stack: 'Backend',
-      progressPercentage: '80%',
+      progressPercentage: '70%',
     },
     {
       Stack: 'Programming',
-      progressPercentage: '60%',
+      progressPercentage: '66%',
     },
     {
       Stack: 'DevOps',
-      progressPercentage: '60%',
+      progressPercentage: '55%',
     },
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -216,7 +216,7 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: 'elpidaguy', // Change to your github username to view your profile in Contact Section.
   showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on

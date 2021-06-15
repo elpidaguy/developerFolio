@@ -16,7 +16,7 @@ const greeting = {
     'An experienced and resourceful full-stack software engineer, I use the tools and resources at my disposal to create system that saves time.'
   ),
   resumeLink:
-    'https://drive.google.com/file/d/1Ect0K7APEpRoG0cF6NymU72uz18km2bK/view?usp=sharing',
+    'https://drive.google.com/file/d/1fVP9_exGbr_AozmAXnjB6sfq6iOfPGSy/view?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -176,7 +176,7 @@ const workExperiences = {
       desc:
         'Responsible for developing end to end intelligent solutions for challenging business requirements with the application of various cutting edge technologies.',
       descBullets: [
-        'Handling variety of healthcare products with hugh data and driving insights out of it to help operations.',
+        'Handling variety of healthcare products with huge data and driving insights out of it to help operations.',
         'Developing solutions across a range of business requirements with latest technologies.',
         'Productionizing and Maintaining solutions for ensuring high availabilty and throughput.',
       ],
@@ -190,8 +190,8 @@ const workExperiences = {
         'Developing an innovative and creative products and services that provides the total communication and information solutions. ',
       descBullets: [
           'Developing variety of products across various well known domains as per business requirements.',
-          'Ensuring the User Friendlyness, Dynamicity and Stableness of Software/Hardware Applications.',
-          'Leading Products on both technical and management fronts..',
+          'Ensuring the User Friendliness, Dynamicity and Stableness of Software/Hardware Applications.',
+          'Leading Products on both technical and management fronts.',
         ],
     },
     {
@@ -213,7 +213,7 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: 'elpidaguy', // Change to your github username to view your profile in Contact Section.
-  showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
   display: false, // Set false to hide this section, defaults to true
 };
 

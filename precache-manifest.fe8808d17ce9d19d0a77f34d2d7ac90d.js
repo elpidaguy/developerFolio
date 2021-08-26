@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f932eb4026a2285cb6a9a114a0f565fa",
+    "revision": "80a69863e54eef3394edae365c19e117",
     "url": "/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.a8329f31.chunk.css"
   },
   {
-    "revision": "c00788f80243f63b94c0",
-    "url": "/static/css/main.21623afa.chunk.css"
+    "revision": "ac667f74a34caf31fda5",
+    "url": "/static/css/main.f2beb963.chunk.css"
   },
   {
     "revision": "c0ccdf3b17af682dd7d9",
@@ -32,20 +32,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.262007c2.chunk.js"
   },
   {
-    "revision": "c00788f80243f63b94c0",
-    "url": "/static/js/main.63f1425d.chunk.js"
+    "revision": "ac667f74a34caf31fda5",
+    "url": "/static/js/main.f070fd61.chunk.js"
   },
   {
     "revision": "ef60039e8f84e2c69259",
     "url": "/static/js/runtime-main.985149fb.js"
   },
   {
-    "revision": "21f233e19402cc4a66866a7f31191f0d",
-    "url": "/static/media/Agustina.21f233e1.woff"
+    "revision": "a3752c4bf72688b3db38d0911cf75f61",
+    "url": "/static/media/Agustina.a3752c4b.woff"
   },
   {
-    "revision": "bca46740d4496753087d256ba377e67f",
-    "url": "/static/media/IKSHlogo.bca46740.jpg"
+    "revision": "a28998595db6361dd1c8c74be9dfba3a",
+    "url": "/static/media/IKSHlogo.a2899859.jpg"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/saayaHealthLogo.25018d29.webp"
   },
   {
-    "revision": "73b761efeb651821fc0bbf77c30ac272",
-    "url": "/static/media/sih17.73b761ef.webp"
+    "revision": "07819a2de0bd437172e5ca16f7845922",
+    "url": "/static/media/sih17.07819a2d.webp"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/solace-logo.7e755e67.png"
   },
   {
-    "revision": "0e79cb472570dd30b16ea8d1432e7926",
-    "url": "/static/media/sppu-logo.0e79cb47.jpg"
+    "revision": "ab373fcc25b22b0613ffb8ed04a723a2",
+    "url": "/static/media/sppu-logo.ab373fcc.jpg"
   },
   {
     "revision": "13780cdd0144cacdef25486e2c2503f8",

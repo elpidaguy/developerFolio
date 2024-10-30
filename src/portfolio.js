@@ -39,7 +39,7 @@ const socialMediaLinks = {
   gmail: 'kaustubh.joshi136@gmail.com',
   // gitlab: 'https://gitlab.com/saadpasta',
   // facebook: 'https://www.facebook.com/saad.pasta7',
-  medium: 'http://bit.ly/ElMedium',
+  devio: 'https://dev.to/elpidaguy',
   stackoverflow: 'https://bit.ly/ElOverflow',
   codepen: 'https://bit.ly/ElCodepen',
   pexels: 'https://bit.ly/ElPexels',
@@ -160,7 +160,7 @@ const techStack = {
     },
     {
       Stack: 'Backend',
-      progressPercentage: '70%',
+      progressPercentage: '80%',
     },
     {
       Stack: 'Programming',
@@ -169,6 +169,10 @@ const techStack = {
     {
       Stack: 'DevOps',
       progressPercentage: '55%',
+    },
+    {
+      Stack: "Leadership", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -179,6 +183,22 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: 'Lead Engineer',
+      company: 'John Deere India Pvt Ltd',
+      companylogo: require('./assets/images/jd.png'),
+      date: '2023 – Present',
+      desc:
+        'Responsible for Leading the Web Portfolio for one of the World Wide John Deere Engagements.',
+    },
+    {
+      role: 'Senior Engineer',
+      company: 'John Deere India Pvt Ltd',
+      companylogo: require('./assets/images/jd.png'),
+      date: '2021 - 2023',
+      desc:
+        'Responsible for developing end to end intelligent solutions which saves time',
+    },
     {
       role: 'Analyst - Full Stack Developer',
       company: 'IKS Health',
@@ -191,30 +211,30 @@ const workExperiences = {
         'Developing solutions across a range of business requirements with latest technologies.',
         'Productionizing and Maintaining solutions for ensuring high availabilty and throughput.',
       ],
-    },
-    {
-      role: 'Full Stack Developer',
-      company: 'Weoto',
-      companylogo: require('./assets/images/wlogo.jpg'),
-      date: '2017 – 2019',
-      desc:
-        'Developing an innovative and creative products and services that provides the total communication and information solutions. ',
-      descBullets: [
-          'Developing variety of products across various well known domains as per business requirements.',
-          'Ensuring the User Friendliness, Dynamicity and Stableness of Software/Hardware Applications.',
-          'Leading Products on both technical and management fronts.',
-        ],
-    },
-    {
-      role: 'Software Engineer Intern',
-      company: 'Solace Infotech Pvt Ltd',
-      companylogo: require('./assets/images/solace-logo.png'),
-      date: '2016 - 2017',
-      descBullets: [
-        'Group Leader of Academic Project',
-        'Worked on Android Native, PHP Codeigniter, Jquery, Ajax, MySQL as Full Stack Developer',
-      ]
-    },
+    }
+    // {
+    //   role: 'Full Stack Developer',
+    //   company: 'Weoto',
+    //   companylogo: require('./assets/images/wlogo.jpg'),
+    //   date: '2017 – 2019',
+    //   desc:
+    //     'Developing an innovative and creative products and services that provides the total communication and information solutions. ',
+    //   descBullets: [
+    //       'Developing variety of products across various well known domains as per business requirements.',
+    //       'Ensuring the User Friendliness, Dynamicity and Stableness of Software/Hardware Applications.',
+    //       'Leading Products on both technical and management fronts.',
+    //     ],
+    // },
+    // {
+    //   role: 'Software Engineer Intern',
+    //   company: 'Solace Infotech Pvt Ltd',
+    //   companylogo: require('./assets/images/solace-logo.png'),
+    //   date: '2016 - 2017',
+    //   descBullets: [
+    //     'Group Leader of Academic Project',
+    //     'Worked on Android Native, PHP Codeigniter, Jquery, Ajax, MySQL as Full Stack Developer',
+    //   ]
+    // },
   ],
 };
 
@@ -225,7 +245,7 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: 'elpidaguy', // Change to your github username to view your profile in Contact Section.
   showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -294,15 +314,38 @@ const achievementSection = {
       ],
     },
     {
-      title: 'An Introduction to Text Parsing Sorcery',
+      title: 'Legacy JavaScript Algorithms and Data Structures',
       subtitle:
-        'Completed Certification from Udemy for Regular Expressions',
-      image: require('./assets/images/udemy.png'),
+        'FreeCodeCamp Certificate',
+      image: require('./assets/images/fcc.jpg'),
       footerLink: [
         {
           name: 'Certification',
           url:
-            'https://www.udemy.com/certificate/UC-FDK7EQTE/'
+            'https://www.freecodecamp.org/certification/elpidaguy/javascript-algorithms-and-data-structures'
+        },
+        // {
+        //   name: 'Award Letter',
+        //   url:
+        //     'https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing',
+        // },
+        // {
+        //   name: 'Google Code-in Blog',
+        //   url:
+        //     'https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html',
+        // },
+      ],
+    },
+    {
+      title: 'Security Aware',
+      subtitle:
+        'Secure Code Warrior',
+      image: require('./assets/images/scw.png'),
+      footerLink: [
+        {
+          name: 'Profile',
+          url:
+            'https://portal.securecodewarrior.com/#/stats/63edb997de03d50dc71f3b4a'
         },
         // {
         //   name: 'Award Letter',
@@ -330,6 +373,13 @@ const blogSection = {
   blogs: [
     {
       url:
+        'https://dev.to/elpidaguy/hello-i-m-http-and-these-are-my-request-methods-co',
+      title: 'Hello, I\'m HTTP and these are my request methods👋🏻',
+      description:
+        'This post will provide you all the information you need to understand HTTP a better and a simpler way..',
+    },
+    {
+      url:
         'https://elpidaguy.medium.com/how-to-bulk-upload-csv-file-data-into-mysql-table-very-fast-way-using-load-data-statement-e3685890a568',
       title: 'How to Bulk Upload CSV file data into MySql Table? A very fast way using LOAD DATA.',
       description:
@@ -340,7 +390,7 @@ const blogSection = {
       title: 'Creating a Dot Net Core 3.1 WebAPI with OpenAPI, Swagger UI using CLI on VS Code',
       description:
         'Do you want to document your DotNet Core 3.1 WebAPIs?',
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };

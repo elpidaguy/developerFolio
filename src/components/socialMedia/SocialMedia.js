@@ -104,14 +104,14 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.medium ? (
+      {socialMediaLinks.devio ? (
         <a
-          href={socialMediaLinks.medium}
-          className="icon-button medium"
+          href={socialMediaLinks.devio}
+          className="icon-button dev"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-medium"></i>
+          <i className="fab fa-dev"></i>
           <span></span>
         </a>
       ) : null}
